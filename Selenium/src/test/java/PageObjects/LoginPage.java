@@ -20,7 +20,11 @@ public class LoginPage {
 	
 	public static WebElement loginButton(WebDriver driver) {
 		
+		System.out.println();
+		
 		return driver.findElement(By.xpath("//button[text()=' Login ']"));
+		
+		
 	}
 
 }
