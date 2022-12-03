@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parameterization">
+<test name = "para">
+<parameter name="Name" value="John Cena"> </parameter>
+<classes>  
+<class name= "testNGLearnings.Parameterization"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [test suite1]">
+  <test name="test cases(failed)">
+    <classes>
+      <class name="testNGLearnings.TestSuite">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="openBing"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNGLearnings.TestSuite -->
+    </classes>
+  </test> <!-- test cases(failed) -->
+</suite> <!-- Failed suite [test suite1] -->
